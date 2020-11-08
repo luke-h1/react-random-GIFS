@@ -8,7 +8,7 @@ const Navbar = ({ title, aboutLink }) => {
     <>
       <nav className="nav">
         <Link to="/" className="nav-link">
-          <h1 className='nav-title'>{title}</h1>
+          <h1 className="nav-title">{title}</h1>
           <FiTerminal className="navbar-icon" />
         </Link>
         <div className="nav-menu">
