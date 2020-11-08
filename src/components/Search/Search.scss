@@ -1,0 +1,22 @@
+.search-wrapper {
+  width: 600px;
+  max-width: 600px;
+  min-width: 400px;
+  margin: 0 auto;
+
+}
+
+.container {
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.random-gif {
+  min-width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
