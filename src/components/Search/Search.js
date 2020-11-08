@@ -10,7 +10,7 @@ const Search = () => {
 
   const fetchData = async () => {
     setLoading(true);
-    const API_URL = `https://cors-anywhere.herokuapp.com/https://api.giphy.com/v1/gifs/random?api_key=${process.env.REACT_APP_API_KEY}`;
+    const API_URL = `https://api.giphy.com/v1/gifs/random?api_key=${process.env.REACT_APP_API_KEY}`;
     const res = await axios.get(API_URL);
     console.log(res.data);
     console.log(res.data.data.image_mp4_url);
